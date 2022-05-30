@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/css/style.css" />
+</head><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>My New Hugo Site</h1></span>
+                </a>
+                
+                <a href="https://github.com/VotreCompteGithub" class="navbar-item is-hidden-desktop" title="GitHub"><span
+                        class="icon"><i class='fab fa-github'></i></span></a>
+                
+                <a href="https://twitter.com/Chevalt1" class="navbar-item is-hidden-desktop" title="Twitter"><span
+                        class="icon"><i class='fab fa-twitter'></i></span></a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/blog" class="navbar-item">Blog</a>
+                    
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                    <a href="/a-propos-de" class="navbar-item">À propos</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/VotreCompteGithub" class="navbar-item is-hidden-touch" title="GitHub"><span
+                            class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                    <a href="https://twitter.com/Chevalt1" class="navbar-item is-hidden-touch" title="Twitter"><span
+                            class="icon"><i class='fab fa-twitter'></i></span></a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+	<main>
+		<article>
+			<h1>Article2</h1>
+			<time datetime="2022-04-25T09:56:26">25.04.2022 09:56</time>
+			<div>
+				<h1 id="jaime-doki-doki-literature-club">J&rsquo;aime Doki Doki Literature Club</h1>
+<p>C&rsquo;est très bien <strong>Doki Doki Literature Club</strong></p>
+<h2 id="allez-jouer-à-ddlc">Allez jouer à DDLC</h2>
+
+			</div>
+		</article>
+	</main>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+	            <div class="column is-narrow">
+		            <a href="/blog" class="">Blog</a>
+	            </div>
+            
+	            <div class="column is-narrow">
+		            <a href="/projets" class="">Projets</a>
+	            </div>
+            
+	            <div class="column is-narrow">
+		            <a href="/a-propos-de" class="">À propos</a>
+	            </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>
