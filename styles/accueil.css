@@ -1,0 +1,54 @@
+body {
+  background-color: whitesmoke;
+}
+
+/*header*/
+header {
+  width: 100%;
+  color: white;
+  background-image: url("../images/header/Banniere.jpg");
+  background-size: cover;
+  height: 400px;
+}
+header .choix img {
+  width: 50px;
+}
+
+header > .choix {
+  display: flex;
+  padding: 20px;
+}
+
+header > .choix > .choixGauche {
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+header > .choix > .choixDroite {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+header > .choix > .choixDroite > .git {
+  background-size: cover;
+}
+
+header > .choix a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.moi {
+  display: flex;
+  gap: 50px;
+}
+
+.moi p {
+  font-size: 30px;
+}
+
+header .moi img {
+  margin-left: 15%;
+}
