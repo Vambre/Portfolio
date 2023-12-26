@@ -52,3 +52,44 @@ header > .choix a {
 header .moi img {
   margin-left: 15%;
 }
+
+/*section projet*/
+
+.proj {
+  display: flex;
+  gap: 50px;
+  background-color: white;
+  margin-top: -50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.proj a {
+  text-decoration: none;
+  color: blue;
+}
+
+.proj > .projet {
+  margin-left: auto;
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.proj .web {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj > .projet > img {
+  width: 100px;
+  display: flex;
+  margin: auto;
+}
+
+.proj > .projet > .web > img {
+  width: 100px;
+  margin: auto;
+}
