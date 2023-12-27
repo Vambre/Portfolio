@@ -58,11 +58,6 @@ header .moi img {
 .proj {
   display: flex;
   gap: 50px;
-  background-color: white;
-  margin-top: -50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 20px;
 }
 
 .proj a {
@@ -92,4 +87,68 @@ header .moi img {
 .proj > .projet > .web > img {
   width: 100px;
   margin: auto;
+}
+
+.secProjet > h1 {
+  text-align: center;
+}
+
+.secProjet {
+  background-color: white;
+  margin-top: -50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+/*footer*/
+footer {
+  background-color: rgb(13, 13, 90);
+  color: white;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer .reseaux {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding-right: 30px;
+  text-align: center;
+}
+
+footer .cont {
+  display: flex;
+}
+
+footer .contenu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .info {
+  margin: auto;
+}
+
+footer .reseaux img {
+  margin: auto;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer .Contact {
+  padding-left: 50px;
 }
