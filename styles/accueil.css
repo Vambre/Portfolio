@@ -53,6 +53,17 @@ header .moi img {
   margin-left: 15%;
 }
 
+/*section Qui je suis ?*/
+.Moi {
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  margin-top: -50px;
+  background-color: white;
+  font-size: 20px;
+}
+
 /*section projet*/
 
 .proj {
@@ -68,6 +79,7 @@ header .moi img {
 .proj > .projet {
   margin-left: auto;
   border: 2px solid black;
+  background-color: white;
   text-align: center;
   padding: 20px;
   width: 100%;
@@ -94,8 +106,6 @@ header .moi img {
 }
 
 .secProjet {
-  background-color: white;
-  margin-top: -50px;
   margin-left: 50px;
   margin-right: 50px;
   padding: 20px;
@@ -108,6 +118,7 @@ footer {
   width: 100%;
   display: flex;
   gap: 50px;
+  padding-bottom: 30px;
 }
 
 footer img {

@@ -1,0 +1,64 @@
+body {
+  background-color: wheat;
+}
+
+.contenu {
+  background-color: white;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.contenu a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.contenu .imgPresentation {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.projet {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.separe {
+  display: flex;
+  flex-direction: row;
+}
+
+.separe > img {
+  width: 50px;
+}
+
+.separe .lang {
+  width: 100px;
+}
+span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.telecharger {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: aqua;
+  margin: 10px;
+  color: black;
+}
+
+.telecharger img {
+  width: 50px;
+}
