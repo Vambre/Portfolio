@@ -1,0 +1,81 @@
+body {
+  background-color: gray;
+}
+
+.contenu {
+  background-color: white;
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.contenu a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.contenu .imgPresentation {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.projet {
+  flex-wrap: wrap;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.separe {
+  display: flex;
+  flex-direction: row;
+}
+
+.separe > img {
+  width: 50px;
+}
+
+.separe .lang {
+  width: 100px;
+}
+span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.telecharger {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: aqua;
+  margin: 10px;
+  color: black;
+}
+
+.telecharger img {
+  width: 50px;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 10px;
+}
+.selection a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  margin: auto;
+  width: 150px;
+  padding: 10px;
+}
