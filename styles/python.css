@@ -1,9 +1,9 @@
 body {
-  background-color: gray;
+  background-color: #1f2833;
 }
 
 .contenu {
-  background-color: white;
+  background-color: #c5c6c7;
   border: 2px solid black;
   width: 50%;
   margin: auto;
@@ -31,6 +31,10 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  color: #66fcf1;
+}
+
 .separe {
   display: flex;
   flex-direction: row;
@@ -41,7 +45,7 @@ h2 {
 }
 
 .separe .lang {
-  width: 100px;
+  width: 50px;
 }
 span {
   font-weight: bold;
@@ -54,11 +58,11 @@ span {
   flex-direction: row;
   border: 2px solid black;
   border-radius: 20px;
-  background-color: gray;
+  background-color: #1f2833;
   margin: auto;
   margin-bottom: 20px;
   width: 75%;
-  color: white;
+  color: #c5c6c7;
 }
 
 .telecharger img {
@@ -76,21 +80,28 @@ span {
   text-decoration: none;
   color: black;
   border: 1px solid black;
-  background-color: white;
+  background-color: #c5c6c7;
   margin: auto;
-  width: 150px;
+  width: 100px;
   padding: 10px;
 }
 
 button {
-  background-color: gray;
-  color: white;
+  background-color: #1f2833;
+  color: #c5c6c7;
   font-size: 20px;
   margin-bottom: 20px;
   border: 2px solid black;
   padding: 10px;
   width: 75%;
   border-radius: 30px;
+}
+
+button:hover,
+.telecharger:hover,
+.selection a:hover {
+  background-color: #45a29e;
+  color: black;
 }
 
 .bouton {
