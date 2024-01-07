@@ -1,5 +1,5 @@
 body {
-  background-color: wheat;
+  background-color: gray;
 }
 
 .contenu {
@@ -54,9 +54,11 @@ span {
   flex-direction: row;
   border: 2px solid black;
   border-radius: 20px;
-  background-color: aqua;
-  margin: 10px;
-  color: black;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 75%;
+  color: white;
 }
 
 .telecharger img {
@@ -78,4 +80,19 @@ span {
   margin: auto;
   width: 100px;
   padding: 10px;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 75%;
+  border-radius: 30px;
+}
+
+.bouton {
+  text-align: center;
 }

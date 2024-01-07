@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet Python</title>
     <link rel="stylesheet" href="../styles/python.css" />
+    <script>
+      function toggleContent(id) {
+        var content = document.getElementById(id);
+        content.style.display =
+          content.style.display === "none" ? "block" : "none";
+      }
+    </script>
   </head>
   <body>
     <h1>Projet Python</h1>
@@ -28,23 +35,28 @@
           src="../images/Python/chameau.PNG"
           alt=""
         />
-        <p>
-          <span>Description : </span> Ce site internet a été fais dans le cadre
-          de nos SAE(Situation d'Apprentissage Évalué) ou je devais faire un
-          site événementiel en HTML/CSS.
-        </p>
-        <p>
-          Si vous voulez plus d'informations, vous pouvez télécharger le dossier
-          en cliquant ci-dessous
-        </p>
-        <a
-          class="telecharger"
-          href="../dossierATelecharger/Python/jeux chameau.py"
-          download
-        >
-          <img src="../images/Web/telecharger.png" alt="" />
-          <p>telecharger mon dossier ici</p></a
-        >
+        <div class="bouton">
+          <button onclick="toggleContent('jeuChameau')">Plus de Détails</button>
+        </div>
+        <div id="jeuChameau" style="display: none">
+          <p>
+            <span>Description : </span> Ce site internet a été fais dans le
+            cadre de nos SAE(Situation d'Apprentissage Évalué) ou je devais
+            faire un site événementiel en HTML/CSS.
+          </p>
+          <p>
+            Si vous voulez plus d'informations, vous pouvez télécharger le
+            dossier en cliquant ci-dessous
+          </p>
+          <a
+            class="telecharger"
+            href="../dossierATelecharger/Python/jeux chameau.py"
+            download
+          >
+            <img src="../images/Web/telecharger.png" alt="" />
+            <p>telecharger mon dossier ici</p></a
+          >
+        </div>
       </div>
     </div>
   </body>

@@ -1,11 +1,13 @@
 body {
-  background-color: wheat;
+  background-color: gray;
 }
 
 .contenu {
   background-color: white;
   border: 2px solid black;
   width: 50%;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .contenu a {
@@ -21,9 +23,7 @@ body {
 }
 
 .projet {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+  flex-wrap: wrap;
 }
 
 h1,
@@ -54,11 +54,45 @@ span {
   flex-direction: row;
   border: 2px solid black;
   border-radius: 20px;
-  background-color: aqua;
-  margin: 10px;
-  color: black;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 75%;
+  color: white;
 }
 
 .telecharger img {
   width: 50px;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 10px;
+}
+.selection a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  margin: auto;
+  width: 150px;
+  padding: 10px;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 75%;
+  border-radius: 30px;
+}
+
+.bouton {
+  text-align: center;
 }

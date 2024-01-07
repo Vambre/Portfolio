@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet Web</title>
+    <script>
+      function toggleContent(id) {
+        var content = document.getElementById(id);
+        content.style.display =
+          content.style.display === "none" ? "block" : "none";
+      }
+    </script>
     <link rel="stylesheet" href="../styles/web.css" />
   </head>
   <body>
     <h1>Projet Web</h1>
+    <div class="selection">
+      <a href="#event">Site événementiel</a>
+      <a href="#marathon">Site marathon web</a>
+    </div>
     <div class="projet">
-      <div class="contenu">
+      <div class="contenu" id="event">
         <h2>Site événementiel</h2>
         <div class="separe">
           <p><span>Satut : </span>Fini</p>
@@ -21,25 +32,32 @@
         </div>
         <p><span>Projet : </span>Universitaire</p>
         <img class="imgPresentation" src="../images/Web/imageBase.PNG" alt="" />
-        <p>
-          <span>Description : </span> Ce site internet a été fais dans le cadre
-          de nos SAE(Situation d'Apprentissage Évalué) ou je devais faire un
-          site événementiel en HTML/CSS.
-        </p>
-        <p>
-          Si vous voulez plus d'informations, vous pouvez télécharger le dossier
-          en cliquant ci-dessous
-        </p>
-        <a
-          class="telecharger"
-          href="../dossierATelecharger/Web/S1.05-06.zip"
-          download
-        >
-          <img src="../images/Web/telecharger.png" alt="" />
-          <p>telecharger mon dossier ici</p></a
-        >
+        <div class="bouton">
+          <button onclick="toggleContent('événementiel')">
+            Plus de Détails
+          </button>
+        </div>
+        <div id="événementiel" style="display: none">
+          <p>
+            <span>Description : </span> Ce site internet a été fais dans le
+            cadre de nos SAE(Situation d'Apprentissage Évalué) ou je devais
+            faire un site événementiel en HTML/CSS.
+          </p>
+          <p>
+            Si vous voulez plus d'informations, vous pouvez télécharger le
+            dossier en cliquant ci-dessous
+          </p>
+          <a
+            class="telecharger"
+            href="../dossierATelecharger/Web/S1.05-06.zip"
+            download
+          >
+            <img src="../images/Web/telecharger.png" alt="" />
+            <p>telecharger mon dossier ici</p></a
+          >
+        </div>
       </div>
-      <div class="contenu">
+      <div class="contenu" id="marathon">
         <h2>Site marathon web</h2>
         <div class="separe">
           <p><span>Satut : </span>non Fini</p>
@@ -56,23 +74,28 @@
           src="../images/Web/siteMarathon.jpg"
           alt=""
         />
-        <p>
-          <span>Description : </span> Le site du marathon web est la conception
-          d'un site internet dans un delai de 33h ou je devais faire le
-          back-end.
-        </p>
-        <p>
-          Si vous voulez plus d'informations, vous pouvez télécharger le dossier
-          en cliquant ci-dessous
-        </p>
-        <a
-          class="telecharger"
-          href="../dossierATelecharger/Web/MarathonWeb.zip"
-          download
-        >
-          <img src="../images/Web/telecharger.png" alt="" />
-          <p>telecharger mon dossier ici</p></a
-        >
+        <div class="bouton">
+          <button onclick="toggleContent('mara')">Plus de Détails</button>
+        </div>
+        <div id="mara" style="display: none">
+          <p>
+            <span>Description : </span> Le site du marathon web est la
+            conception d'un site internet dans un delai de 33h ou je devais
+            faire le back-end.
+          </p>
+          <p>
+            Si vous voulez plus d'informations, vous pouvez télécharger le
+            dossier en cliquant ci-dessous
+          </p>
+          <a
+            class="telecharger"
+            href="../dossierATelecharger/Web/MarathonWeb.zip"
+            download
+          >
+            <img src="../images/Web/telecharger.png" alt="" />
+            <p>telecharger mon dossier ici</p></a
+          >
+        </div>
       </div>
     </div>
   </body>
