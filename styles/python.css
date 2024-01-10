@@ -2,7 +2,7 @@ body {
   background-color: #1f2833;
 }
 
-.contenu {
+.projet .contenu {
   background-color: #c5c6c7;
   border: 2px solid black;
   width: 50%;
@@ -106,4 +106,115 @@ button:hover,
 
 .bouton {
   text-align: center;
+}
+
+/*footer*/
+footer {
+  background-color: #45a29e;
+  color: #1f2833;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer .reseaux {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding-right: 30px;
+  text-align: center;
+}
+
+footer .cont {
+  display: flex;
+}
+
+footer .contenu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1f2833;
+}
+
+footer a:hover {
+  color: #66fcf1;
+}
+
+footer .info {
+  margin: auto;
+}
+
+footer .reseaux img {
+  margin: auto;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer .Contact {
+  padding-left: 50px;
+}
+
+@media (max-width: 600px) {
+  /*section projet*/
+  .proj > .projet {
+    width: 100%;
+  }
+}
+
+/*header*/
+header {
+  width: 100%;
+  color: #c5c6c7;
+  background-image: url("../images/header/Banniere.jpg");
+  background-size: cover;
+}
+header .choix img {
+  width: 50px;
+}
+
+header > .choix a:hover {
+  color: #66fcf1;
+}
+
+header > .choix {
+  display: flex;
+  padding: 20px;
+}
+
+header > .choix > .choixGauche {
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+header > .choix > .choixDroite {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+header > .choix > .choixDroite > .git {
+  background-size: cover;
+}
+
+header > .choix a {
+  text-decoration: none;
+  color: #c5c6c7;
+  font-size: 20px;
+}
+
+header .moi img {
+  margin-left: 15%;
+  width: 300px;
 }
