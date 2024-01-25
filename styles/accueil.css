@@ -6,7 +6,7 @@ body {
 header {
   width: 100%;
   color: #c5c6c7;
-  background-image: url("../images/header/Banniere.jpg");
+  background-color: #45a29e;
   background-size: cover;
   height: 400px;
 }
