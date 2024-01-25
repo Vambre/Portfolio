@@ -173,6 +173,11 @@ header {
   background-color: #45a29e;
   background-size: cover;
 }
+
+#Menu {
+  display: none;
+}
+
 header .choix img {
   width: 50px;
 }
@@ -216,6 +221,57 @@ header .moi img {
   /*section projet*/
   .proj > .projet {
     width: 100%;
+  }
+
+  /*header*/
+  header .choix {
+    display: none;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Menu {
+    display: block;
+  }
+
+  #Menu img {
+    width: 100px;
+  }
+
+  .choix.showMenu {
+    display: flex;
+    background-color: #45a29e;
+  }
+
+  .choix.showMenu .moi {
+    display: none;
+  }
+
+  .choix a {
+    display: block;
+    padding: 10px;
+    color: #1f2833;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .choix a:hover {
+    background-color: #66fcf1;
+    color: #1f2833;
+  }
+
+  header .choix.showMenu .choixGauche {
+    display: flex;
+    color: #1f2833;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+  }
+
+  header .choix.showMenu .moi {
+    display: none;
   }
 
   /*footer*/

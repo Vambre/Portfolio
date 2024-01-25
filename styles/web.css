@@ -166,25 +166,6 @@ footer .Contact {
   padding-left: 50px;
 }
 
-@media (max-width: 600px) {
-  /*section projet*/
-  .proj > .projet {
-    width: 100%;
-  }
-
-  /*footer*/
-  footer {
-    flex-wrap: wrap;
-  }
-
-  footer .reseaux,
-  footer .info,
-  footer .Contact {
-    margin: auto;
-    width: 300px;
-  }
-}
-
 /*header*/
 header {
   width: 100%;
@@ -194,6 +175,10 @@ header {
 }
 header .choix img {
   width: 50px;
+}
+
+#Menu {
+  display: none;
 }
 
 header > .choix a:hover {
@@ -229,4 +214,74 @@ header > .choix a {
 header .moi img {
   margin-left: 15%;
   width: 300px;
+}
+
+@media (max-width: 600px) {
+  /*section projet*/
+  .proj > .projet {
+    width: 100%;
+  }
+
+  /*header*/
+  header .choix {
+    display: none;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Menu {
+    display: block;
+  }
+
+  #Menu img {
+    width: 100px;
+  }
+
+  .choix.showMenu {
+    display: flex;
+    background-color: #45a29e;
+  }
+
+  .choix.showMenu .moi {
+    display: none;
+  }
+
+  .choix a {
+    display: block;
+    padding: 10px;
+    color: #1f2833;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .choix a:hover {
+    background-color: #66fcf1;
+    color: #1f2833;
+  }
+
+  header .choix.showMenu .choixGauche {
+    display: flex;
+    color: #1f2833;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+  }
+
+  header .choix.showMenu .moi {
+    display: none;
+  }
+
+  /*footer*/
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer .reseaux,
+  footer .info,
+  footer .Contact {
+    margin: auto;
+    width: 300px;
+  }
 }
