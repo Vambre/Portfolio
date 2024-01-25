@@ -171,6 +171,18 @@ footer .Contact {
   .proj > .projet {
     width: 100%;
   }
+
+  /*footer*/
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer .reseaux,
+  footer .info,
+  footer .Contact {
+    margin: auto;
+    width: 300px;
+  }
 }
 
 /*header*/

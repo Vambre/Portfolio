@@ -166,13 +166,6 @@ footer .Contact {
   padding-left: 50px;
 }
 
-@media (max-width: 600px) {
-  /*section projet*/
-  .proj > .projet {
-    width: 100%;
-  }
-}
-
 /*header*/
 header {
   width: 100%;
@@ -217,4 +210,23 @@ header > .choix a {
 header .moi img {
   margin-left: 15%;
   width: 300px;
+}
+
+@media (max-width: 600px) {
+  /*section projet*/
+  .proj > .projet {
+    width: 100%;
+  }
+
+  /*footer*/
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer .reseaux,
+  footer .info,
+  footer .Contact {
+    margin: auto;
+    width: 300px;
+  }
 }
